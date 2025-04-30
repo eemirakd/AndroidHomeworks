@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <color name="ozelRenk">#172026</color>
+    <color name="buttonBack">#172026</color>
+    <color name="buttonStr">#5FCDD9</color>
+    <color name="yazilar">#172026</color>
+
+    <style name="Base.Theme.BootcampHw2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/anaRenk</item>
+
+
+
+
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight" tools:ignore="DuplicateDefinition">
+        <item name="android:textColorPrimary">@color/gündüzRenk</item>
+        <item name="android:textColorPrimary">@color/geceRenk</item>
+        <item name="android:textColorPrimary">@color/anaRenk</item>
+        <item name="colorPrimary">@color/ikinciRenk</item>
+
+        <item name="android:textColorPrimary">@color/aa</item>
+        <item name="colorPrimary">@color/bb</item>
+    </style>
+
+
+    <style name="Theme.BootcampHw2" parent="Base.Theme.BootcampHw2" />
+</resources>

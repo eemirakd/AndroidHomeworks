@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="ozelRenk">#5FCDD9</color>
+    <color name="buttonBack">#5FCDD9</color>
+    <color name="buttonStr">#172026</color>
+    <color name="yazilar">#5FCDD9</color>
+
+    <!-- Base application theme. -->
+    <color name="geceRenk">#5FCDD9</color>
+
+    <style name="Base.Theme.BootcampHw2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@color/anaRenk</item>
+
+
+
+
+
+    </style>
+</resources>
