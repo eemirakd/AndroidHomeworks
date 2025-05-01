@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BootcampHw2</string>
+    <string name="arabaBaslik">Araç Kiralama</string>
+    <string name="yakitTürü">Dizel</string>
+    <string name="vitesTürü">Otomatik</string>
+    <string name="yas">21+ yaş</string>
+    <string name="depozito">Depozito : 2000 TL</string>
+    <string name="teslimAlis">Teslim Alış Tarihi : 11 Mayıs 2025 - 13:00</string>
+    <string name="teslimEdis">Teslim Ediş Tarihi : 16 Mayıs 2025 - 16:30</string>
+    <string name="toplamTutar">Toplam Tutar : 5000 TL</string>
+    <string name="öedeme">Ödemeye Geç</string>
+
+
+    
+
+
+</resources>
