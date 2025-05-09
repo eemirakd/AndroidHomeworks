@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.navcompodev.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/gitToA"
+            app:destination="@id/birinciGitFragment" />
+        <action
+            android:id="@+id/gitToX"
+            app:destination="@id/ucuncuGitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/birinciGitFragment"
+        android:name="com.example.navcompodev.BirinciGitFragment"
+        android:label="fragment_birinci_git"
+        tools:layout="@layout/fragment_birinci_git" >
+        <action
+            android:id="@+id/gitToB"
+            app:destination="@id/ikinciGitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ikinciGitFragment"
+        android:name="com.example.navcompodev.IkinciGitFragment"
+        android:label="fragment_ikinci_git"
+        tools:layout="@layout/fragment_ikinci_git" >
+        <action
+            android:id="@+id/bTOy"
+            app:destination="@id/dorduncuGitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ucuncuGitFragment"
+        android:name="com.example.navcompodev.UcuncuGitFragment"
+        android:label="fragment_ucuncu_git"
+        tools:layout="@layout/fragment_ucuncu_git" >
+        <action
+            android:id="@+id/xToY"
+            app:destination="@id/dorduncuGitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dorduncuGitFragment"
+        android:name="com.example.navcompodev.DorduncuGitFragment"
+        android:label="fragment_dorduncu_git"
+        tools:layout="@layout/fragment_dorduncu_git" >
+        <action
+            android:id="@+id/geriDon"
+            app:destination="@id/anaSayfaFragment" />
+    </fragment>
+</navigation>
